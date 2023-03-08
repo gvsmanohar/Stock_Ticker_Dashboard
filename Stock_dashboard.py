@@ -2,13 +2,11 @@
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output, State
-import pandas_datareader.data as web
 import yfinance as yf
 from datetime import datetime
 from datetime import date, timedelta
 import os
 import pandas as pd
-os.environ["IEX_API_KEY"] = "pk_698caadc6a2b40c28993dde175e64c3b"
 
 # launch the application
 app = dash.Dash()
